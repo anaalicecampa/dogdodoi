@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    border: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    background-color: #D8F1FB82;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  img {
+    width: 63px;
+    height: 50px;
+    margin: 11px 0px 12px 20px;
+  }
+  
+  header a {
+    background: #EA1C81;
+    border-radius: 18px;
+    padding: 4px 15px 5px 15px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  header nav {
+    margin: 25px 20px 25px 0px;
+  }
+  
+  #titulo {
+    margin: 40px 0px 20px 0px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+  
+  form input {
+    display: block !important;
+    width: 98vw;
+    max-width: 500px;
+    height: 39px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  }
+  
+  #escrever {
+    margin-top: 19px;
+    color: #424E66;
+  }
+  
+  button {
+    width: 100%;
+    max-width: 500px;
+    height: 41px;
+    background-color: #EA1C81;
+    border-radius: 18px;
+    margin-top: 39px;
+    margin-bottom: 19px;
+  }
+  
+  form p {
+    margin: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  
+  :hover button {
+    cursor: pointer;
+  }
+  
+  form a {
+    background-color: #EA1C81;
+    border-radius: 18px;
+    margin-top: 39px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    height: 41px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  

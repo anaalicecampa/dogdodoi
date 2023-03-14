@@ -1,0 +1,11 @@
+@media (max-width: 880px){ /*@media = if(se)*/
+    #corpo #bemVindo{
+        display: block;
+    }
+}
+
+@media (max-width: 865px){
+    #form{
+        background-image: none;
+    }
+}

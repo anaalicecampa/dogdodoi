@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    border-radius: 1.49vw;
+    background-color: #EA1C81;
+    font-size: 1.6vw;
+}
+
+header{
+    background-color:#D8F1FB82;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 5.23vw;
+    height: 4.15vw;
+    margin: 0.91vw 0 0.99vw 7.47vw;
+}
+
+header a{
+    padding: 0.6vw  1.24vw 0.6vw;
+}
+
+header nav{
+    margin: 2.07vw 4.15vw 2.07vw 0;
+}
+
+:hover button{
+    cursor: pointer;
+}
+
+form input{
+    display: block !important;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 0.41px;
+}
+
+label{
+    color:#424E66;
+    font-size: 0.99vw;
+    margin-left: 0.49vw;
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    font-weight: 700;
+    font-size: 2.49vw;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0.49vw;
+}
+
+.pri div{
+    margin-top: 2.99vw;
+}
+
+.pri p{
+    margin-bottom: 0.74vw;
+}
+
+.seg div{
+    margin-top: 1.99vw;
+}
+
+.p2{
+    margin-top: 2.99vw;
+}
+
+.but{
+    display: flex;
+}
+
+.but button{
+    margin: 2.65vw 1.16vw 10.46vw 1.41vw;
+    border-radius: 1.49vw;
+    width: 18.27vw;
+    height: 3.40vw;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 1.66vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.verde button{
+    background: #1CF365;
+}
+
+.vermelho button{
+    background: #DF2F2F;
+}
+
+.nome input{
+    width: 40vw;
+    height: 3.23vw;
+}
+
+.email input{
+    width: 37.62vw;
+    height: 3.23vw;
+}
+
+.cpf input{
+    width: 25.58vw;
+    height: 3.23vw;
+}
+
+.zapp input{
+    width: 20vw;
+    height: 3.23vw;
+}
+
+.outro input{
+    width: 24.66vw;
+    height: 3.23vw;
+}
+
+.data input{
+    width: 11.12vw;
+    height: 3.23vw;
+}
+
+.cep input{
+    width: 25.58vw;
+    height: 3.23vw;
+}
+
+.cid input{
+    width: 45vw;
+    height: 3.23vw;
+}
+
+.uf input{
+    width: 11.12vw;
+    height: 3.23vw;
+}
+
+.cid2 input{
+    width: 45vw;
+    height: 3.23vw;
+}
+
+.numero input{
+    width: 11.12vw;
+    height: 3.23vw;
+}
+
+.arr{
+    display: flex;
+}
+
+.nome{
+    margin-right: 2vw;
+}
+
+.cpf{
+    margin-right: 3vw;
+}
+
+.zapp{
+    margin-right: 2.6vw;
+}
+
+.outro{
+    margin-right: 1.7vw;
+}
+
+.cep{
+    margin-right: 3vw;
+}
+
+.cid{
+    margin-right: 1.7vw;
+}
+
+.cid2{
+    margin-right:1.7vw;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    main {
+    margin: 36px 8px 126px 8px;
+    }
+    
+    header {
+    flex-direction: column;
+    }
+    
+    header img {
+    margin: 11px auto 12px auto;
+    }
+    
+    header nav {
+    margin: 10px auto 25px auto;
+    }
+    
+    .but {
+    flex-direction: column;
+    }
+    
+    .but button {
+    margin: 16px auto 32px auto;
+    }
+    
+    .arr {
+    flex-direction: column;
+    }
+    
+    .nome,
+    .cpf,
+    .zapp,
+    .outro,
+    .cep,
+    .cid,
+    .cid2 {
+    margin-right: 0px;
+    margin-bottom: 10px;
+    }
+    
+    .nome input {
+    width: 100%;
+    }
+    
+    .email input {
+    width: 100%;
+    }
+    
+    .cpf input {
+    width: 100%;
+    }
+    
+    .zapp input {
+    width: 100%;
+    }
+    
+    .outro input {
+    width: 100%;
+    }
+    
+    .data input {
+    width: 100%;
+    }
+    
+    .cep input {
+    width: 100%;
+    }
+    
+    .cid input {
+    width: 100%;
+    }
+    
+    .uf input {
+    width: 100%;
+    }
+    
+    .cid2 input {
+    width: 100%;
+    }
+    
+    .numero input {
+    width: 100%;
+    }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para telas entre 769px e 1024px */
+    main {
+    margin: 36px 16px 126px 16px;
+    }
+    
+    header img {
+    margin: 11px 0px 12px 60px;
+    }
+    }
+    
+    @media screen and (min-width: 1025px) {
+    /* Estilos para telas maiores que 1024px */
+    main {
+    margin: 36px 16px 126px 90px;
+    }
+    
+    header img {
+    margin: 11px 0px 12px 90px;
+    }
+    }

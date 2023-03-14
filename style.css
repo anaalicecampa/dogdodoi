@@ -1,0 +1,160 @@
+:root{ /*criação de variaveis*/
+    --cor-corpo: #D8F1F8;
+    --cor-preta: black;
+    --cor-rosa: #EA1C81;
+    --cor-branca: white;
+    --padding: 20px;
+    --cor-fundo: #fafbff;
+    --cor-rodape: #d8f1fb82;
+    --aparece: flex;
+    --some: none;
+}
+
+*{ /*afeta a página inteira*/
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+}
+
+#cabecalho{
+    background-color: var(--cor-corpo);
+    display: var(--aparece); /*alinha em linha*/
+    justify-content: space-between; /*espaço entre conteudo igualmente*/
+    align-items: center;
+}
+
+#cabecalho nav a{
+    text-decoration: none; /*tira a decoração do texto*/
+    color: var(--cor-preta); /*var é pra usar a variavel*/
+}
+
+#cabecalho nav a:hover{ /*hover faz executar quando o mouse passar em cima*/
+    background-color: var(--cor-rosa);
+    color: var(--cor-branca);
+    border-radius: 20px;
+}
+
+.margin-lateral{ /*. cria uma classe*/
+    margin: 0px 20px;
+}
+
+#corpo #banner{
+    background-color: red;
+    height: calc(100vh - 93px); /*usar pra deixar 100% sem estourar tudo*/
+    display: flex;
+    flex-direction: column; /*mudar a direção do flex para sem em coluna*/
+    align-items: center; /*coloca o conteudo no centro de X*/
+    justify-content: center; /*coloca o conteudo no centro de Y*/
+    background-image: url(../img/Section\ -\ Banner.png); /*usar (../) para achar uma imagem no  computador*/
+    background-repeat: no-repeat; /*imagem não se repete*/
+    background-size: cover; /*fundo preenche toda a área*/
+    background-position: center center;
+}
+
+.margin-cima-baixo{
+    margin: 20px 0px;
+}
+
+#corpo #banner h1{
+    color: var(--cor-rosa);
+    font-size: 22pt;
+}
+
+#corpo #banner button{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--cor-rosa);
+    color: var(--cor-branca);
+    cursor: pointer; /*muda o cursor para mãozinha*/
+}
+
+#corpo #bemVindo{
+    display: grid; /*cria uma tabela pra trabalharmos na sua construção de forma que a organização dos itens no site fiquem proporcionais*/
+    grid-template-columns: repeat(2, 1fr); /*interage com o grid adicionando o número de colunas, o primeiro número é a quantidade de colunas e o segundo é sempre o mesmo*/
+}
+
+#corpo #bemVindo div,
+#cabecalho nav a:hover,
+#cabecalho{
+    padding: var(--padding);
+}
+
+#corpo #bemVindo .negrito{
+    color: var(--cor-rosa);
+    font-weight: bold; /*deixa o texto em negrito*/
+}
+
+#corpo #beneficios{
+    text-align: center;
+    background-color: var(--cor-fundo);
+    color: var(--cor-rosa);
+}
+
+#corpo #beneficios #itens{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    padding: var(--padding);
+}
+
+#form #form-info{
+    text-align: center;
+    padding: var(--padding);
+}
+
+#form #form-formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form #form-formulario form input{
+    display: block; /*alinha como bloco, coloca o texto ensima da caixa*/
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid var(--cor-preta);
+    width: 300px;
+    outline: none;
+}
+
+#form #form-formulario form button{
+    width: 300px;
+    box-sizing: border-box;
+    padding: var(--padding);
+    background-color: var(--cor-rosa);
+    color: var(--cor-branca);
+    border-radius: 10px;
+    border: none;
+}
+
+#form #form-formulario form div{
+    margin: 5px 0px;
+}
+
+#form{
+    background-image: url(../img/dog.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#rodape{
+    background-color: var(--cor-rodape);
+    text-align: center;
+    padding: var(--padding);
+}
+
+#menu{
+    background-image: url(../img/menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    display: none;
+    position: fixed;
+    border-radius: 20px;
+    height: 75px;
+    width: 75px;
+    border: none;
+    outline: none;
+}

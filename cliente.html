@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="stylesheet" href="../styles/Cliente.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="../img/Logo.png" alt="Logo">
+        </figure>
+        <nav>
+            <a href="../front/index.html">Sair</a> 
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+
+        <p>Cadastro de clientes</p>
+
+        <section class="pri">
+            <div class="arr">
+                <div class="nome">
+                    <label for="Nome">Nome completo</label>
+                    <input type="text" id="Nome" required>
+                </div>
+
+                <div class="email">
+                    <label for="E-mail">E-mail</label>
+                    <input type="text" id="E-mail" required>
+                </div>
+            </div>
+            <div class="arr">
+                <div class="cpf">
+                    <label for="CPF">CPF</label>
+                    <input type="text" id="CPF" required>
+                </div>
+
+                <div class="zapp">
+                    <label for="Whats APP">Whats APP</label>
+                    <input type="number" id="Whats APP" required>
+                </div>
+
+                <div class="outro">
+                    <label for="Outro contato">Outro contato</label>
+                    <input type="text" id="Outro contato" required>
+                </div>
+
+                <div class="data">
+                    <label for="Data">Data nascimento</label>
+                    <input type="date" id="Data" required placeholder="dd/mm/yyyy">
+                </div>
+            </div>
+        </section>
+
+        <p class="p2">Endereço</p>
+
+        <section class="seg">
+            <div class="arr">
+            <div class="cep">
+                <label for="CEP">CEP</label>
+                <input type="text" id="CEP" required>
+            </div>
+
+            <div class="cid">
+                <label for="Cidade">Cidade</label>
+                <input type="text" id="Cidade" required>
+            </div>
+
+            <div class="uf">
+                <label for="UF">UF</label>
+                <input type="text" id="UF" required>
+            </div>
+            </div>
+            <div class="arr">
+            <div class="cid2">
+                <label for="Cidade2">Cidade</label>
+                <input type="text" id="Cidade2" required>
+            </div>
+
+            <div class="numero">
+                <label for="Número">Número</label>
+                <input type="text" id="Número" required>
+            </div>
+            </div>
+        </section>
+
+        <section class="but">
+
+                <div class="verde">
+                    <button type="submit">Salvar</button>
+                </div>
+
+                <div class="vermelho">
+                    <button type="reset">Cancelar</button>
+                </div>
+
+        </section>
+
+        </form>
+    </main>
+</body>
+</html>

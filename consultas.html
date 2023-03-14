@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="stylesheet" href="../styles/consulta.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="../img/Logo.png" alt="Logo">
+        </figure>
+        <nav>
+            <a href="../front/index.html">Sair</a> 
+        </nav>
+    </header>
+
+    <main>
+        <p id="registro"><strong>Registrar uma consulta</strong></p>
+        <form action="">
+            <section class="form">
+                <div id="Nome-completo">
+                    <label for="Nome">Nome completo do cliente</label>
+                    <input type="text" id="Nome" required>
+                </div>
+                <div id="date">
+                    <label for="Data">Data da consulta</label>
+                    <input type="date" id="Data" required placeholder="dd/mm/yyyy">
+                </div>
+                <div id="hora">
+                    <label for="Horas">Hora da consulta</label>
+                    <input type="time" id="Horas" required placeholder="hh:mm:ss">
+                </div>
+                <div id="adicional">
+                    <label for="ADD">Observações adicionais</label>
+                    <input type="text" id="ADD" required>
+                </div> 
+            </section>
+            <section class="button">
+                <div>
+                    <button type="submit"  id="button1">Salvar</button>
+                </div>
+                <div>
+                    <button type="reset"  id="button2">Cancelar</button>
+                </div>
+            </section>   
+            </form>
+    </main>
+</body>
+</html>
